@@ -1,0 +1,392 @@
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-family: "Gaegu", cursive;
+    text-transform: uppercase;
+
+}
+
+nav {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+    margin: 16px auto;
+}
+
+nav ul {
+    list-style: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 16px 24px;
+}
+
+nav ul li a:hover {
+
+    color: #bfd6c4;
+    border-radius: 4px;
+    transition: color 0.3s ease;
+}
+
+.right {
+    color: white;
+    padding: 12px 24px;
+    margin-right: 15px;
+    border-radius: 4px;
+    margin-top: 20px;
+    height: 20px;
+    width: auto;
+    text-align: center;
+    background-color: #bfd6c4;
+}
+
+
+
+.welcome {
+    text-align: center;
+    font-family: "Gaegu", cursive;
+}
+
+.welcome::after {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 4px;
+    background-color: #bfd6c4;
+    bottom: 555px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2px;
+}
+
+.intro {
+    font-size: 18px;
+    text-align: center;
+    font-family: "Gaegu", cursive;
+}
+
+#home .profile-container .profile-pic:hover {
+    transform: scale(1.1);
+    transition: transform 0.4s ease;
+
+}
+
+#about {
+    font-family: "Gaegu", cursive;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+
+.profile-pic {
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    transition: transform 0.4s ease;
+}
+
+.experience-title {
+    text-align: center;
+    font-family: "Gaegu", cursive;
+    margin-top: 100px;
+    font-size: 32px;
+    background-color: rgb(252, 246, 239);
+    padding-top: 35px;
+}
+
+.experience-title::after {
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 4px;
+    background-color: #bfd6c4;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2px;
+}
+
+
+
+
+.experience-background {
+    background-color: rgb(252, 246, 239);
+    padding-bottom: 20px;
+}
+
+
+#experience-grid {
+    display: flex;
+    justify-content: center;
+
+    gap: 50px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 40px;
+}
+
+.experience {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    overflow: hidden;
+
+}
+
+.workplace {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Gaegu", cursive;
+    margin-top: 10px;
+}
+
+.work-pic {
+    height: 150px;
+    border-radius: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.description {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 80%;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Gaegu", cursive;
+}
+
+
+
+.date {
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: "Gaegu", cursive;
+    text-align: center;
+}
+
+.experience-face,
+.work-details {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.experience-face {
+    opacity: 1;
+}
+
+.work-details {
+
+    opacity: 0;
+    padding: 10px;
+    padding-top: 30px;
+    background-color: #bfd6c4;
+    color: white;
+    text-align: left;
+    margin: auto;
+    font-family: "Gaegu", cursive;
+    font-size: 14px;
+    line-height: 1.6;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    top: 0;
+    left: 0;
+
+}
+
+.experience:hover .experience-face {
+    opacity: 0;
+}
+
+.experience:hover .work-details {
+    opacity: 1;
+}
+
+.work-details ul {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    list-style-position: inside;
+
+}
+
+.work-details li {
+    margin-bottom: 10px;
+}
+
+#courses {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    gap: 50px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.courses-title {
+    text-align: center;
+    font-family: "Gaegu", cursive;
+    margin-top: 20px;
+    font-size: 32px;
+    background-color: white;
+    padding-top: 35px;
+}
+
+.courses-title::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    background-color: #bfd6c4;
+    bottom: -590px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2px;
+}
+
+
+.class {
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    transition: transform 0.3s ease;
+
+}
+
+.class-name {
+    font-family: "Gaegu", cursive;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.class-desc {
+    font-family: "Gaegu", cursive;
+    font-size: 16px;
+    text-align: center;
+    width: 80%;
+}
+
+.class:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    background-color: #bfd6c4;
+}
+
+#contact {
+    background-color: rgb(252, 246, 239);
+    font-family: 'Gaegu', cursive;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.user-name {
+    height: 50px;
+    text-align: left;
+    border-radius: 10px;
+    width: 350px;
+    border: none;
+
+
+}
+
+input::placeholder {
+    color: #999;
+    font-family: 'Gaegu', cursive;
+    padding-left: 10px;
+    text-align: bottom;
+}
+
+.user-email {
+    height: 50px;
+    text-align: left;
+    border-radius: 10px;
+    width: 350px;
+    border: none
+}
+
+textarea {
+    width: 350px;
+    height: 150px;
+    border-radius: 10px;
+    border: none;
+
+    font-family: 'Gaegu', cursive;
+}
+
+textarea::placeholder {
+    color: #999;
+    font-family: 'Gaegu', cursive;
+    padding: 10px;
+    text-align: top;
+}
+
+.submit-button {
+    background-color: #bfd6c4;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-family: 'Gaegu', cursive;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}

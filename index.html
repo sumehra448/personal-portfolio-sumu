@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sumehra's About Page</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience-grid">Experience</a></li>
+            <li><a href="#courses">Courses</a></li>
+
+        </ul>
+        <ul class="right">
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="home">
+        <h1 class="welcome">Welcome!</h1>
+        <div class="profile-container">
+            <img class="profile-pic" src="pictures/sumu.png">
+        </div>
+        <p class="intro"> First-year Computer Science and Statistics student at UNC Chapel Hill</p>
+    </div>
+    <div id="about">
+        <p class="info">Hey! I am Sumehra, a freshman at UNC Chapel Hill studying Computer Science and Statistics. I am
+            passionate
+            about technology and data analysis and am interested in product management and data science.
+        </p>
+        <p class="freetime">In my freetime, I enjoy exploring new technologies, working on personal projects, hiking,
+            and dancing.</p>
+    </div>
+
+    <div class="experience-background">
+        <h1 class="experience-title">Experience</h1>
+        <div id="experience-grid">
+            <div class="experience">
+                <div class="experience-face">
+                    <p class="workplace">Girls Who Code</p>
+                    <img class="work-pic" src="pictures/gwc.jpeg">
+                    <p class="description">Teaching Assistant</p>
+                    <p class="date">Aug 2025 - present</p>
+                </div>
+                <div class="work-details">
+                    <ul>
+                        <li>Provide mentoriship to students on projects in JavaScript, Python, HTML, and CSS</li>
+                        <li>Assist in planning and leading weekly coding sessions and activities</li>
+                        <li>Help foster a supportive and inclusive learning environment</li>
+                    </ul>
+                </div>
+
+
+            </div>
+            <div class="experience">
+                <div class="experience-face">
+                    <p class="workplace">Carolina Union</p>
+                    <img class="work-pic" src="pictures/gra.jpeg">
+                    <p class="description">Guest Relations Assistant</p>
+                    <p class="date">Aug 2025 - present</p>
+                </div>
+                <div class="work-details">
+                    <ul>
+                        <li>Provide general CU and campus navigation, serving as a liaison for all guest inquiries and
+                            <br>
+                            support.
+                        </li>
+                        <li>Utilization of the 25Live Reservation system to reserve CU resources for guests and clients.
+                        </li>
+                        <li>Utilize Microsoft Office Suite, Google Sheets, 25Live, and other software.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="experience">
+                <div class="experience-face">
+                    <p class="workplace">JSNN</p>
+                    <img class="work-pic" src="pictures/jsnn.jpeg">
+                    <p class="description">Research Intern</p>
+                    <p class="date">Jun 2024 - Aug 2024</p>
+                </div>
+                <div class="work-details">
+                    <ul>
+                        <li>Conducted research on the cross-linking of bacterial cellulose with citric acid,<br>
+                            contributing to the development of new materials with potential applications.</li>
+                        <li>Assisted in operating lab equipment including Fourier-transform infrared spectroscopy
+                            (FTIR), <br>
+                            thermogravimetric analysis (TGA) machines, and laboratory ovens</li>
+                        <li>Collected and analyzed quantitative data</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 class="courses-title">Courses</h2>
+    <div id="courses">
+
+
+        <div class="class">
+            <p class="class-name">Comp 110</p>
+            <p class="class-desc">Intro to Programming and Data Science</p>
+        </div>
+        <div class="class">
+            <p class="class-name">Comp 210</p>
+            <p class="class-desc">Data Structures and Analysis</p>
+        </div>
+
+
+        <div class="class">
+            <p class="class-name">Math 232</p>
+            <p class="class-desc">Calculus of Functions of One Variable 2</p>
+        </div>
+        <div class="class">
+            <p class="class-name">Math 381</p>
+            <p class="class-desc">Discrete Mathematics</p>
+        </div>
+
+    </div>
+
+    <div id="contact">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <div class="info">
+                <h2 class="contact-me">Contact Me!</h2>
+                <p class="excitment">I'd love to get to know you!</p>
+                <input type="hidden" name="access_key" value="14f570c4-d367-42f2-818b-c0a084890d2e">
+                <input type="text" class="user-name" name="name" placeholder="Your Name" required>
+                <input type="email" class="user-email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button class="submit-button" type="submit">Send</button>
+
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
